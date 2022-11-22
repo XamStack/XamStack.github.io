@@ -1,0 +1,147 @@
+body{
+  background-color: #181818;
+  color: #e3e3e3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-custom{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidenav li a{
+  color: #ffffff;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #ffffff;
+}
+
+p {
+  line-height: 2rem;
+}
+
+blog-h5{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  overflow: hidden;
+  /* for rounded corners */
+}
+
+.post-title {
+  color: azure;
+}
+
+.card-link:hover .post-title {
+  color: #767676;
+}
+
+.card-link:hover .post-image {
+  opacity: 0.8;
+}
+
+.post-image {
+  transition: opacity 0.3s ease;
+  width: 40%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.article-details {
+  padding: 24px;
+}
+
+.post-category {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  margin: 0 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 2px solid;
+}
+
+.post-title {
+  transition: color 0.3s ease;
+  font-size: 17;
+  line-height: 1.4;
+  color: #121212;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.post-author {
+  font-size: 14px;
+  line-height: 1;
+  margin: 17px 0 0 0;
+  padding: 17px 0 0 0;
+  border-top: 1px solid #181818;
+}
+
+@media (max-width: 700px) {
+
+  .post-image {
+    width: 100%;
+  }
+
+  .blog-card {
+    flex-wrap: wrap;
+  }
+}
